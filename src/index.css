@@ -12,8 +12,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background: #abbaab;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #cfd9bb, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #e2e789, #dfe754); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-repeat: no-repeat;
 
 }
@@ -25,6 +26,6 @@ code {
 
 h1 {
   font-family: sans-serif;
-  color: #903a23;
-  font-size: 24px;
+  color: #224b69;
+  font-size: 44px;
 }
