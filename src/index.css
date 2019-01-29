@@ -1,9 +1,10 @@
 body {
   margin: 5px;
   padding: 25px;
-  height: 100vh;
+  text-align: center;
+  /* height: 100vh; */
   font-family: sans-serif;
-  border-style: groove;
+  /* border-style: groove; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
   sans-serif;
@@ -12,7 +13,7 @@ body {
 
   background: #abbaab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #cfd9bb, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #cfd9bb, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, #e2e789, #dfe754); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
 
 }
@@ -20,4 +21,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
   monospace;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #903a23;
+  font-size: 24px;
 }
